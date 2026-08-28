@@ -1,0 +1,121 @@
+[gd_scene format=3 uid="uid://bpcnrl5x8o8vb"]
+
+[ext_resource type="Script" uid="uid://b7uyw526whku8" path="res://scripts/batlle.gd" id="1_vteuu"]
+[ext_resource type="Script" uid="uid://c2gxahg0g8n6a" path="res://scripts/player.gd" id="2_o4dau"]
+[ext_resource type="Texture2D" uid="uid://dh8abqdxmdbbc" path="res://Sprite Pack 2/1 - Onion Lad/Idle (16 x 16).png" id="3_o4dau"]
+[ext_resource type="Texture2D" uid="uid://bwpvuhim2lvse" path="res://Sprite Pack 2/6 - Robo Totem/Armored_Standing (16 x 32).png" id="4_o4dau"]
+
+[node name="Batlle" type="Node2D" unique_id=608625323]
+script = ExtResource("1_vteuu")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=277485383]
+
+[node name="Player" type="Node2D" parent="." unique_id=1197606964]
+position = Vector2(300, 450)
+script = ExtResource("2_o4dau")
+
+[node name="Sprite" type="Sprite2D" parent="Player" unique_id=926677529]
+position = Vector2(250, 400)
+scale = Vector2(6, 6)
+texture = ExtResource("3_o4dau")
+hframes = 2
+
+[node name="Enemy" type="Node2D" parent="." unique_id=1110356884]
+position = Vector2(750, 200)
+
+[node name="Sprite" type="Sprite2D" parent="Enemy" unique_id=1536943578]
+position = Vector2(650, 300)
+scale = Vector2(6, 6)
+texture = ExtResource("4_o4dau")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1362071879]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=838857303]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="EnemyName" type="Label" parent="CanvasLayer/Control" unique_id=137818917]
+layout_mode = 0
+offset_left = 715.0
+offset_top = 69.0
+offset_right = 782.0
+offset_bottom = 118.0
+text = "INIMIGO
+"
+
+[node name="EnemyHP" type="ProgressBar" parent="CanvasLayer/Control/EnemyName" unique_id=1647945770]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 22.0
+offset_right = 22.0
+offset_bottom = 49.0
+value = 100.0
+
+[node name="PlayerName" type="Label" parent="CanvasLayer/Control" unique_id=708480836]
+layout_mode = 0
+offset_left = 273.0
+offset_top = 312.0
+offset_right = 327.0
+offset_bottom = 361.0
+text = "SIMON
+"
+
+[node name="PlayerHP" type="ProgressBar" parent="CanvasLayer/Control/PlayerName" unique_id=1018563648]
+layout_mode = 0
+offset_left = 17.0
+offset_top = 18.0
+offset_right = 21.0
+offset_bottom = 45.0
+value = 100.0
+
+[node name="Message" type="Label" parent="CanvasLayer/Control" unique_id=1062457005]
+layout_mode = 0
+offset_left = 29.0
+offset_top = 367.0
+offset_right = 158.0
+offset_bottom = 390.0
+text = "O que você fará?"
+
+[node name="Menu" type="Panel" parent="CanvasLayer/Control" unique_id=2020742964]
+layout_mode = 0
+offset_left = 30.0
+offset_top = 400.0
+offset_right = 330.0
+offset_bottom = 580.0
+
+[node name="AttackButton" type="Button" parent="CanvasLayer/Control/Menu" unique_id=77987479]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 8.0
+offset_right = 71.0
+offset_bottom = 39.0
+text = "ATACAR"
+
+[node name="SkillButton" type="Button" parent="CanvasLayer/Control/Menu" unique_id=318869032]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 46.0
+offset_right = 113.0
+offset_bottom = 77.0
+text = "HABILIDADES
+"
+
+[node name="GuardButton" type="Button" parent="CanvasLayer/Control/Menu" unique_id=1185919402]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 83.0
+offset_right = 92.0
+offset_bottom = 114.0
+text = "DEFENDER
+"
+
+[node name="ItemButton" type="Button" parent="CanvasLayer/Control/Menu" unique_id=1100623772]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 120.0
+offset_right = 72.0
+offset_bottom = 151.0
+text = "ITEM
+"
