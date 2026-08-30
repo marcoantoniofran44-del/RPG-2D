@@ -4,7 +4,7 @@
 {sorriso}ei acorde! vamos, acorde!
 {cena} o protagonista se levanta cabisbaixo e vê o homem que o chama amarrado por correntes a uma parede. o homem tem o rosto descaracterizado lembrando um sorriso.
 {sorriso} eu estou esperando alguns amigos. por que não me diz seu nome? 
-{joga} escolher o nome 
+{joga} escolher o nome a gosto
 {sorriso} que nome estranho! conheço muitos nomes estranhos. quer ouvir?  quer conversar mais? 
 {joga1}falar com o sorriso 
 {sorriso} *história do reino e seus problemas
