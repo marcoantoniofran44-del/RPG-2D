@@ -1,2 +1,40 @@
 #Roteiro da prisão#
-{narra} muito se pensa sobre a origem da vida. mas sobre seu final só há uma certeza.
+{narra} muito se pensa sobre a origem da vida. mas sobre seu final só há uma certeza. 
+{cena} e se ela pode ser vista. o protagonista está no chão e um homem ou chama até que ele acorda 
+{sorriso}ei acorde! vamos, acorde!
+{cena} o protagonista se levanta cabisbaixo e vê o homem que o chama amarrado por correntes a uma parede. o homem tem o rosto descaracterizado lembrando um sorriso.
+{sorriso} eu estou esperando alguns amigos. por que não me diz seu nome? 
+{joga} escolher o nome 
+{sorriso} que nome estranho! conheço muitos nomes estranhos. quer ouvir?  quer conversar mais? 
+{joga1}falar com o sorriso 
+{sorriso} *história do reino e seus problemas
+{protagonista} então essa é isso que aconteceu lá fora? não poderia imaginar.
+{joga1}escolher falar mais com o sorriso 
+{sorriso}*história idiota do sorriso 
+{protagonista}isso é ... repentino
+{sorriso}há. sabia que iria gostar!tenho mais uma dúzia dessas
+{joga1}escolher falar mais com o sorriso 
+{sorriso} *história idiota do sorriso 
+{protagonista} já está bem estranho
+{cena}um homem careca aparece repentinamente e puxa o protagonista até perteo da cela
+{careca} então é você?! mas que desgraça! vai morrer na primeira assombração. 
+{protagonista}como pode ter tanta certeza? 
+{careca} huuuuuuuum... por que não me mostra?
+{joga 1} tutorial.a primeira batalha de turno.
+{cena} depois de alguma vida perdida a batalha se encerra e o careca ri
+{careca} é... talvez morra na segunda assombração. vou te levar para... o seu destino.
+{cena} o careca leva o protagonista por um corredor. a cena escurece
+{narra} todos os destinos se encontram na morte. do feliz ao triste. do rico ao pobre. no fim, todos dançarão o mesmo salão e anfitrião... é o desespero.
+{fim j1}
+
+{joga 2} o protagonista esplora a sua cela. coleta algumas coisas. no fim do corredor ao lado da grade da grade está o careca.
+{detalhe}se o player demorar demais o careca vai até ele
+{careca} então é você?! que miséria!
+{protagonista} como pode ter certeza?
+{careca} huuuuuuuum. por que não me mostra? 
+{joga 2} tutorial. a primeira batalha de turno.
+{cena} depois de alguma vida perdida do protagonista, o careca ri e cessa a batalha.
+{careca}é... talvez morra na segunda assombração. vou te levar ...para o seu destino. 
+{cena} o careca leva o protagonista por um corredor e a cena escurece. 
+{narra} todos os destinos se encontram na morte. do feliz ao triste, do Rico ao pobre. no fim todos lançarão no mesmo salão e o anfitrião... é o desespero.
+{fim j2}
